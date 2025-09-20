@@ -25,3 +25,9 @@ This repository contains the foundational setup for the ALX Project 0x01 — a f
 - Fetch and display data from JSONPlaceholder API
 - Add modal components for creating posts and users
 - Apply atomic design principles and type-safe interfaces
+
+### ✅ Navigation System
+
+- Implemented `Header` component with links to Home, Posts, and Users
+- Integrated client-side routing using Next.js `<Link>` component
+- Verified seamless navigation without page reloads
