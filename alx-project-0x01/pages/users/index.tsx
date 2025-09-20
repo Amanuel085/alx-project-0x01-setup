@@ -12,7 +12,11 @@ const Users: React.FC<{ posts: UserProps[] }> = ({ posts }) => {
           <button className="bg-blue-700 px-4 py-2 rounded-full text-white">Add User</button>
         </div>
         <div className="grid grid-cols-2 gap-4">
+<<<<<<< HEAD
           {posts.map((user: UserProps, key: number) => (
+=======
+          {posts?.map((user: UserProps, key: number) => (
+>>>>>>> 63c3df76afe0fba927d86ea32c12ec65dc866484
             <UserCard key={key} {...user} />
           ))}
         </div>
