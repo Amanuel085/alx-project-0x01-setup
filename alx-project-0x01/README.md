@@ -38,3 +38,10 @@ This repository contains the foundational setup for the ALX Project 0x01 — a f
 - Created reusable `PostCard` component with styled layout
 - Fetched post data from JSONPlaceholder using `getStaticProps`
 - Rendered posts in a responsive grid on `/posts` page
+
+### ✅ Users Page
+
+- Defined `UserProps` interface with nested address and company data
+- Created dynamic `UserCard` component styled with Tailwind CSS
+- Fetched user data from JSONPlaceholder using `getStaticProps`
+- Rendered users in a responsive grid on `/users` page
