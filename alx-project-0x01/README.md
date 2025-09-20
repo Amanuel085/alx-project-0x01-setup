@@ -31,3 +31,10 @@ This repository contains the foundational setup for the ALX Project 0x01 — a f
 - Implemented `Header` component with links to Home, Posts, and Users
 - Integrated client-side routing using Next.js `<Link>` component
 - Verified seamless navigation without page reloads
+
+### ✅ Posts Page
+
+- Defined `PostProps` interface in `interfaces/index.ts`
+- Created reusable `PostCard` component with styled layout
+- Fetched post data from JSONPlaceholder using `getStaticProps`
+- Rendered posts in a responsive grid on `/posts` page
