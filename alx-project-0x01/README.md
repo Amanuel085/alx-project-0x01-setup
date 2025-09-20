@@ -45,3 +45,10 @@ This repository contains the foundational setup for the ALX Project 0x01 — a f
 - Created dynamic `UserCard` component styled with Tailwind CSS
 - Fetched user data from JSONPlaceholder using `getStaticProps`
 - Rendered users in a responsive grid on `/users` page
+
+### ✅ User Modal
+
+- Defined `UserData` and `UserModalProps` interfaces for type-safe user creation
+- Created `UserModal` component with controlled inputs and styled layout
+- Integrated modal into `/users` page with local state and toggle logic
+- Enabled users to simulate adding new users via form submission
